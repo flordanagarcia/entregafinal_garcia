@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  
+  nav{
+    background-color:rgb(196, 166, 128) ;
+    height: 110px ;
+    width: 100%;
+   
+  }
+  
+  .enlace{
+    position:relative;
+    padding: 20px 50px;
+  }
+  
+  .logo{
+    height: 100px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+  
+  nav ul{
+    float: right; 
+    margin-right: 20px;
+  }
+  
+  nav ul li{
+    display: inline-block;
+    margin-top: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  nav ul li a{
+    color: white;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform:uppercase;
+  }
+  
+  li a:hover{
+    background:rgb(243, 213, 173); 
+    color: rgb(166, 115, 83);
+    transition: .5s;
+  }
+  
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  
+  
+  @media (max-width: 925px) {
+    .enlace{
+        padding-left: 20px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+    
+  }
+  
+  @media (max-width: 858px) {
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 465px;
+        background: rgb(174, 147, 110)  ;
+        top: 100px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        z-index: 2;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    li a:hover, li a.active{
+        background: none;
+        color: rgb(0, 0, 0);
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    #carouselExampleCaptions{
+        z-index: 1;
+    }
+  }
+  
+  footer {
+    background-color: #c4a680;
+  }
+  
+  
+ 
+
+  .contenedor{
+       z-index: 2;
+       width: 450px;
+      margin: auto;
+      background: rgba (0,0,0,0.4);
+      padding: 10px 20px;
+      box-sizing: border-box;
+      margin-top: 20px;
+      border-radius: 7px;
+
+  }
+
+  input textarea{
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 7px;
+      box-sizing: border-box;
+      font-size: 17px;
+  }
+
+
+
+.contactofondo{
+    background-image: url(../assets/img/3f0c8ac7-f338-4f31-bb04-cc1ea4dd8c6b-2.jpg);
+}
+
+
+.card{
+    box-shadow: 8px 11px 24px -11px rgba(0,0,0,0.75); 
+}
+
+
+
+
+
+
+.title {
+ 
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+
+     
+}
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 5;
+    border: none;
+    border-radius: .28571429rem;
+    margin-top:20px;
+}
+
+
+
+.frase{
+    color: rgb(196, 166, 128) ;
+
+}
+
+
+
+
+
+
+
+
